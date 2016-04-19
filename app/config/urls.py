@@ -21,5 +21,4 @@ urlpatterns = [
     url(r'^$', include('home.urls', namespace='home')),
     url(r'^notes/', include('notes.urls', namespace='notes')),
     url(r'^admin/', admin.site.urls),
-    url(r'^blog/', include('blog.urls'))
 ]
